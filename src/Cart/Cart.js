@@ -6,6 +6,7 @@ import './Cart.css'
 
 const Cart = (props) => {
     const { cart } = props;
+
     // console.log(cart);
     let total = 0;
     let quantity = 0;
@@ -18,6 +19,7 @@ const Cart = (props) => {
     // const notify = () => {
     //     toast('Successfully completed the activities')
     // }
+
 
     return (
         <div className='cart'>
