@@ -1,0 +1,44 @@
+[
+    {
+        "id": "63350ec3bec53e40c70fb7d9",
+        "age": 40,
+        "time": 52,
+        "name": "Studying",
+        "img": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZHlpbmd8ZW58MHx8MHx8&w=1000&q=80"
+    },
+    {
+        "id": "63350ec35eb79213f38080e4",
+        "age": 33,
+        "time": 37,
+        "name": "Eating",
+        "img": "https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320056/man-gobbling-down-pasta.jpg"
+    },
+    {
+        "id": "63350ec31bd1f151c0028995",
+        "age": 19,
+        "time": 10,
+        "name": "Sleeping",
+        "img": "https://assets.entrepreneur.com/content/3x2/2000/20170801151554-GettyImages-643310502.jpeg"
+    },
+    {
+        "id": "63350ec3c0babfd999db63a1",
+        "age": 31,
+        "time": 50,
+        "name": "Bathing",
+        "img": "https://cdn.cnn.com/cnnnext/dam/assets/220512150518-02-bathing-frequency-wellness-stock-super-tease.jpg"
+    },
+    {
+        "id": "63350ec3ceb7a04da04f2282",
+        "age": 34,
+        "time": 47,
+        "name": "Praying",
+        "img": "https://muslimaid.storage.googleapis.com/upload/img_cache/file-2332-9b469516a261db53c81569e3bea70e05.jpg"
+    },
+    {
+        "id": "63350ec3d7e64ac8a4d589a6",
+        "age": 19,
+        "time": 49,
+        "name": "Running",
+        "img": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/01/Runner-training-on-running-track-1296x728-header-1296x728.jpg?w=1155&h=1528"
+    }
+]
