@@ -1,10 +1,15 @@
 import React from 'react';
-
-const Cart = ({ cart }) => {
+import './Cart.css'
+const Cart = (props) => {
+    const { cart } = props;
+    let total = 0;
+    for (const activity of cart) {
+        total = total + activity.time;
+    }
     return (
-        <div>
+        <div className='cart'>
             <h3>Md. Ashraful Morsalin</h3>
-            <p>Activity time {cart.length}</p>
+            <p>Activity time {total}</p>
         </div>
     );
 };

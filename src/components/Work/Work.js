@@ -11,7 +11,7 @@ const Work = () => {
             .then(data => setActivities(data))
     }, []);
     const handleAddToList = (activity) => {
-        console.log(activity);
+        // console.log(activity);
         const newCart = [...cart, activity];
         setCart(newCart);
     }
