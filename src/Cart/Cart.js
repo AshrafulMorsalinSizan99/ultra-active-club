@@ -6,9 +6,14 @@ import './Cart.css'
 
 const Cart = (props) => {
     const { cart } = props;
+    // console.log(cart);
     let total = 0;
+    let quantity = 0;
     for (const activity of cart) {
-        total = total + activity.time;
+        quantity = quantity + activity.quantity;
+        // quantity = quantity + activity.quantity;
+        total = total + activity.time * activity.quantity;
+        // console.log(typeof total);
     }
     // const notify = () => {
     //     toast('Successfully completed the activities')
