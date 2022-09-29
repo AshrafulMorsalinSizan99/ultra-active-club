@@ -1,5 +1,6 @@
 import React, { createRef, useEffect, useState } from 'react';
 import Cart from '../../Cart/Cart';
+import { addToDb } from '../../utilities/fakedb';
 import Activity from '../Activity/Activity';
 import './Work.css'
 const Work = () => {
@@ -14,6 +15,7 @@ const Work = () => {
         // console.log(activity);
         const newCart = [...cart, activity];
         setCart(newCart);
+        addToDb(activity.id);
     }
     return (
         <div className='work-container'>
