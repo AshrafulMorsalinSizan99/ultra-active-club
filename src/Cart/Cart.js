@@ -1,11 +1,18 @@
 import React, { useEffect, useState } from 'react';
+
+
 import './Cart.css'
+
+
 const Cart = (props) => {
     const { cart } = props;
     let total = 0;
     for (const activity of cart) {
         total = total + activity.time;
     }
+    // const notify = () => {
+    //     toast('Successfully completed the activities')
+    // }
 
     return (
         <div className='cart'>
@@ -35,8 +42,9 @@ const Cart = (props) => {
             </div>
             <h4>Activity Details</h4>
             <p>Activity time {total}</p>
+            <h4>Break time </h4>
             <button className='btn'><p>Activity Completed</p></button>
-        </div>
+        </div >
     );
 };
 
