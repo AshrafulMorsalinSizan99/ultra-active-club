@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        {/* <h1>Daily Activities</h1> */}
+        <h1 class='title'>Daily Activities</h1>
         <Work></Work>
         {/* <h1>Ques-Answer</h1>
         <h3>How does react work?</h3>

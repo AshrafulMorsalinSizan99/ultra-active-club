@@ -1,4 +1,5 @@
 import React, { createRef, useEffect, useState } from 'react';
+import Cart from '../../Cart/Cart';
 import Activity from '../Activity/Activity';
 import './Work.css'
 const Work = () => {
@@ -27,8 +28,7 @@ const Work = () => {
                 }
             </div>
             <div className="cart-container">
-                <h3>Md. Ashraful Morsalin</h3>
-                <p>Activity time {cart.length}</p>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
