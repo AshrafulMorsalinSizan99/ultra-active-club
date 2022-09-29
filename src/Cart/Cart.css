@@ -4,6 +4,17 @@
     padding: 30px 20px;
 }
 
+.btn {
+    width: 90%;
+}
+
 .btn:hover {
     background-color: blue;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

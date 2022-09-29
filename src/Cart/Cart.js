@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css'
 const Cart = (props) => {
     const { cart } = props;
@@ -6,9 +6,24 @@ const Cart = (props) => {
     for (const activity of cart) {
         total = total + activity.time;
     }
+
     return (
         <div className='cart'>
             <h3>Md. Ashraful Morsalin </h3>
+            <div className='info'>
+                <div>
+                    <h2>75</h2>
+                    <p>Weight</p>
+                </div>
+                <div>
+                    <h2>6.5</h2>
+                    <p>Height</p>
+                </div>
+                <div>
+                    <h2>25</h2>
+                    <p>Age</p>
+                </div>
+            </div>
             <h4>Add A Break</h4>
             <div>
                 <button
@@ -20,6 +35,7 @@ const Cart = (props) => {
             </div>
             <h4>Activity Details</h4>
             <p>Activity time {total}</p>
+            <button className='btn'><p>Activity Completed</p></button>
         </div>
     );
 };
