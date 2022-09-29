@@ -7,9 +7,18 @@
 
 }
 
+.activity-info {
+    margin: 0 14px;
+}
+
+.activity-info p {
+    margin-bottom: 0;
+}
+
 .activity-name {
     font-size: 21px;
     line-height: 25px;
+    margin-top: 7px;
 }
 
 .activity img {
@@ -17,4 +26,16 @@
     height: 286px;
     border-radius: 20px;
     margin: 7px;
+}
+
+.btn-cart {
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: lightseagreen;
+    border: none;
+}
+
+.btn-cart:hover {
+    background-color: blue;
 }
